@@ -1,0 +1,29 @@
+/* ----- SETTINGS ------- */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/* ------- HEADER ----------- */
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #333;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navs > a{
+    color: #fff;
+    margin-left: 20px;
+}
