@@ -1,0 +1,31 @@
+.main-catalog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+    line-height: 2;
+}
+
+.catalog > h3{
+    font-size: 25px;
+    color: #fff;
+    background-color: #0000ff;
+    padding: 1% 6%;
+    
+
+    border-radius: 10px;
+}
+
+.catalog > a{
+    padding: 1% 9%;
+}
+
+.slider > img{
+    width: 45%;
+}
