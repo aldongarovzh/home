@@ -42,6 +42,22 @@
 //     }
 // ]
 
+// for in
+// for(let index in students){
+//     if(students[index].age > 19){
+//         console.log(students[index]);
+//     }
+// }
+
+// for of
+// for(let key of students){
+//     if(key.age > 19){
+//         console.log(key);
+//     }
+// }
+
+
+// classic
 // for(var i = 0; i < students.length; i++){
 //     if(students[i].age > 19){
 //         console.log(students[i]);
@@ -115,6 +131,25 @@
 //     }
 // ]
 
+// for in
+// for(let index in students){
+//     if(students[index].grade >= 85 && students[index].grade <= 100){
+//         console.log(students[index]);
+//     }
+// }
+
+
+
+// for of
+// for(let student of students){
+//     if(student.grade >= 85 && student.grade <= 100){
+//         console.log(student);
+//     }
+// }
+
+
+
+// classic
 // for(var i = 0; i < students.length; i++){
 //     if(students[i].grade >= 85 && students[i].grade <= 100){
 //         console.log(students[i]);
