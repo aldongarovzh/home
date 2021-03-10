@@ -1,0 +1,43 @@
+.latest-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #e8e8e8
+}
+.latest-name h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+}
+
+.latest-left{
+    margin-bottom: 30px;
+}
+.category-item{
+    width: calc(100% / 3 - 3%);
+    text-align: center;
+    line-height: 3;
+}
+
+.latest-padding{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.latest-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount > li{
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+}

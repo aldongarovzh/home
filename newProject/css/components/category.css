@@ -1,5 +1,17 @@
+.category-name{
+    margin-bottom: 85px;
+    text-align: center;
+}
+.category-name > h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+}
 .category-item{
     position: relative;
+    width: calc(100% / 3 - 2%);
+    margin-right: 30px;
 }
 
 .category-item > img{
@@ -11,4 +23,8 @@
     z-index: 10;
     top: 50%;
     right: 50px;
+}
+
+.category-h2{
+    font-size: 40px;
 }
