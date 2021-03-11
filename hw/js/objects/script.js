@@ -210,6 +210,34 @@
 //     ]
 // }
 
+
+
+// for in
+// let cart = [];
+
+// for(let index in clinic.animals){
+//     cart[cart.length] = clinic.animals[index];
+// }
+
+// clinic[clinic.length] = cart;
+// console.log(clinic);
+
+
+
+//for of
+// let cart = [];
+
+// for(let animal of clinic.animals){
+//     cart[cart.length] = animal;
+// }
+
+// clinic[clinic.length] = cart;
+// console.log(clinic);
+
+
+
+// ниже решение через двойной массив
+
 // cart = [];
 
 // for(let index in clinic){
